@@ -10,7 +10,7 @@ public class ExpenseController {
   /**
    * Returns the sum of the given integers.
    * @param a first integer a
-   * @param b second integer
+   * @param b second integer b
    * @return Returns the sum of the given integers.
    */
   @GetMapping("/expense/{a}/{b}")
