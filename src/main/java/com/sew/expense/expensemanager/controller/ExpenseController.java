@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExpenseController {
 
+  /**
+   * Returns the sum of the given integers.
+   * @param a first int
+   * @param b second int
+   * @return Returns the sum of the given integers.
+   */
   @GetMapping("/expense/{a}/{b}")
   public int totalExpense(@PathVariable int a, @PathVariable int b) {
     return a + b;
