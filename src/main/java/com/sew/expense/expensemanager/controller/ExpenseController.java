@@ -9,7 +9,7 @@ public class ExpenseController {
 
   /**
    * Returns the sum of the given integers.
-   * @param a first int
+   * @param a first integer
    * @param b second int
    * @return Returns the sum of the given integers.
    */
