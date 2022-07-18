@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage("Checkout the code") {
             steps {
-                git branch: '', url: 'https://github.com/udeshika-sewwandi/expense-manager.git'
+                git branch: '**', url: 'https://github.com/udeshika-sewwandi/expense-manager.git'
             }
         }
         stage ("Build the project") {
